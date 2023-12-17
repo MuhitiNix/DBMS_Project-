@@ -6,10 +6,13 @@
     box-sizing: border-box;
 }
 
+bg
+
 body,
 html {
     height: 100%;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 a {
@@ -135,6 +138,8 @@ iframe {
     padding: 15px;
     position: relative;
     z-index: 1;
+    /* background-image: url('./cover.jpg'); */
+    
 }
 
 .container-contact100::before {
@@ -147,7 +152,12 @@ iframe {
     top: 0;
     left: 0;
     pointer-events: none;
-    background-color: #f1f1f1ff;
+    background-image: url('./cover2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
 .contact100-map {
@@ -164,7 +174,7 @@ iframe {
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
-    padding: 72px 150px 25px 150px;
+    padding: 10px 120px 0px 120px;
 
     box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
@@ -185,7 +195,7 @@ iframe {
     font-size: 30px;
     color: #333333;
     line-height: 1.2;
-    text-align: left;
+    text-align: center;
     padding-bottom: 34px;
 }
 
